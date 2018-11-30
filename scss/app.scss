@@ -1,0 +1,12 @@
+$theme-colors: ("primary": #d60489);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+@mixin MyTruc($color) {
+  background-color:$color;
+}
+
+.navbar{
+  @include MyTruc(red);
+}
+
